@@ -51,6 +51,4 @@ Esta es una aplicación de gestión de usuarios desarrollada en Angular. Permite
 - HTML y CSS: Lenguajes de marcado y estilos utilizados para la estructura y el diseño de la aplicación.
 - Bootstrap
 
-## Contribución
-
-Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna sugerencia de mejora, no dudes en abrir un issue o enviar un pull request.
+![portada](https://github.com/relly27/prueba_angular/blob/main/cover.png)
