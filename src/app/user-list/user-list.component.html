@@ -1,0 +1,14 @@
+<div class="container-list">
+    <div>
+    <h2>User List</h2>
+    <ul class="list-group">
+      <li *ngFor="let user of users" class="list-group-item">
+        {{ user.id }} {{ user.name }} ({{ user.email }})
+        <button (click)="deleteUser(user.id)" class="btn btn-primary"> Delete</button>
+        <a [routerLink]="['/edit', user.id]" class="btn btn-primary">Edit</a>
+      </li>
+    </ul>
+    <a routerLink="/add" class="btn btn-primary">Add User</a>
+  </div>
+
+</div>
